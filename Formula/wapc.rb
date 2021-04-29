@@ -11,11 +11,11 @@ class Wapc < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_darwin_amd64.tar.gz"
-    sha256 "22228c734949d7a38fdbbcb5e0fad8e7c9bfab8992c454bb486c5c5b81a7a35e"
+    sha256 "4c52c8da6869214460ea3d0a50304c4f93daf09e28eab9ead10e60ca76577f26"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_linux_amd64.tar.gz"
-    sha256 "b37abd3edc7d81bd42086e2c2f22cd161fa701da2f74afa54407a778dcbea2a4"
+    sha256 "e6a1286a414ec250136b76b4b8c6687cd560aa2c25798bc5aebde8508b0f7544"
   end
 
   def install
