@@ -10,12 +10,12 @@ class Wapc < Formula
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_0.0.1_darwin_amd64.tar.gz"
-    sha256 "1161d3d5ec472b55f40637d39fbebf5934c8c78ea2e1d512c417709b1317752a"
+    url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_v0.0.1_darwin_amd64.tar.gz"
+    sha256 "72ab3809cfc65ed618eec26f09f77518501ae21e6b7c256fd7666e1a63a64a07"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_0.0.1_linux_amd64.tar.gz"
-    sha256 "e7a917b4a3b0a0601b4c06a47195ae0604d38353cbaea137a14cee92699e1c4f"
+    url "https://github.com/wapc/cli/releases/download/v0.0.1/wapc_v0.0.1_linux_amd64.tar.gz"
+    sha256 "2865e194aa62ae9981dad830892de13248ba304c29c495b2051847e9cb63b275"
   end
 
   def install
