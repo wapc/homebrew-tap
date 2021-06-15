@@ -5,17 +5,17 @@
 class Wapc < Formula
   desc "A simple description of your application."
   homepage "https://github.com/wapc/cli"
-  version "0.0.3"
+  version "0.0.4"
   license "Apache-2.0"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/wapc/cli/releases/download/v0.0.3/wapc_darwin_amd64.tar.gz"
-    sha256 "71a8784cdcfb456199306032fe7c403539769cb9f08a09d0b32894b86d38a85b"
+    url "https://github.com/wapc/cli/releases/download/v0.0.4/wapc_darwin_amd64.tar.gz"
+    sha256 "8feeb6153d260bfab7a88aaa409a6a3dfe866c4549a25a6adbc3d187b027503a"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/wapc/cli/releases/download/v0.0.3/wapc_linux_amd64.tar.gz"
-    sha256 "3bae17345173099e0f286ac14ecf2d6b81f8f668ef2a07f3a593c2e5b419a414"
+    url "https://github.com/wapc/cli/releases/download/v0.0.4/wapc_linux_amd64.tar.gz"
+    sha256 "8a0c84bbf7e4395f0d282f66d2e12cc0231c424588dda29a546f1a6f0ee327da"
   end
 
   def install
